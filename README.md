@@ -1,6 +1,6 @@
 # An Attention-Based Architecture for Hierarchical Classification with CNNs
 
-This directory contains an implementation of BA-CNN paper (link). In our experiments, we used CIFAR-10,CIFAR-100 and Fashion MNIST, and compared our proposed method (BA-CNN) results with B-CNN (Zhu and Bain, 2017) and H-CNN (Zhang,2021)
+This directory contains an implementation of BA-CNN paper (link). In our experiments, we used CIFAR-10,CIFAR-100 and Fashion MNIST, and compared our proposed method (BA-CNN) results with B-CNN (Zhu and Bain, 2017), H-CNN (Zhang,2021), Add-net and Concat-net (Inoue,2020)
 
 
 ## Requirements
@@ -8,9 +8,9 @@ For the experiments, CIFAR-10 and Fashion MNIST were imported from keras library
 
 
 # Files
- - BA_CNN_CIFAR_10.ipynb: Models B-CNN, H-CNN and BA-CNN Base B and C, running on CIFAR-10 dataset.
- - BA_CNN_CIFAR_100.ipynb: Models B-CNN, H-CNN and BA-CNN Base C, running on CIFAR-100 dataset.
- - BA_CNN_CIFAR_FASHION_MNIST.ipynb: Models B-CNN, H-CNN and BA-CNN Base C, running on Fashion MNIST dataset.
+ - BA_CNN_CIFAR_10.ipynb: Models B-CNN, H-CNN, Add-net, Concat-net and BA-CNN Base B and C, running on CIFAR-10 dataset.
+ - BA_CNN_CIFAR_100.ipynb: Models B-CNN, H-CNN, Add-net, Concat-net and BA-CNN Base C, running on CIFAR-100 dataset.
+ - BA_CNN_CIFAR_FASHION_MNIST.ipynb: Models B-CNN, H-CNN, Add-net, Concat-net and BA-CNN Base C, running on Fashion MNIST dataset.
 
 
 
@@ -58,4 +58,15 @@ Sample code not available
 ```
 Sample code on https://github.com/AdicherlaVenkataSai/HCNN
 
-
+[Add-net and Concat-net](https://ieeexplore.ieee.org/abstract/document/9207246)
+```
+@inproceedings{inoue2020semantic,
+  title={Semantic Hierarchy-based Convolutional Neural Networks for Image Classification},
+  author={Inoue, Matheus and Forster, Carlos Henrique and dos Santos, Antonio Carlos},
+  booktitle={2020 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2020},
+  organization={IEEE}
+}
+```
+Sample code not available

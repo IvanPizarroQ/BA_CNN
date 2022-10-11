@@ -14,7 +14,8 @@ For the experiments, CIFAR-10 and Fashion MNIST were imported from keras library
  - BA_CNN_CIFAR_FASHION_MNIST.ipynb: Models B-CNN, H-CNN, Add-net, Concat-net and BA-CNN Base C, running on Fashion MNIST dataset.
 
 /output/
-html files from executed jupyter notebooks
+
+ - html files from executed jupyter notebooks
 
 
 
